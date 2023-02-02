@@ -1,0 +1,74 @@
+/* Style the form */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+/* Style the input field */
+form input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 50%;
+}
+
+/* Style the button */
+form button {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Center the to-do list */
+#todos {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 290px;
+}
+
+/* Style the to-do list items */
+.todo {
+    list-style: none;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Style the checkbox and buttons */
+.todo input[type="checkbox"] {
+    margin-right: 5px;
+}
+.todo button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* Style the edit input */
+.edit-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
